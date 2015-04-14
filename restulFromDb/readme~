@@ -5,5 +5,7 @@ webServiceFromDb
 clientWs
 
 user/pssd: salim/salim1
+
+calling the ws:
 http://localhost:8080/webServiceFromDb/webresources/entities.chef/1/10
 
