@@ -21,10 +21,6 @@ import javax.ws.rs.core.MediaType;
 /**
  *
  * @author salim
- * https://www.google.com.lb/?gws_rd=ssl#q=jersey+client+restful+main
- *
- * curl -u salim
- * http://localhost:8080/webServiceFromDbSecured/webresources/entities.chef
  */
 public class MainSecured {
 
