@@ -2,13 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group name="jsfandPrime">
-            <file>file:/home/salim/Development/webservice_DT_example/EditableDataTable/WebContent/scripts/jquery.jeditable.js</file>
-            <file>file:/home/salim/Development/webservice_DT_example/EditableDataTable/WebContent/scripts/jquery.dataTables.min.js</file>
-            <file>file:/home/salim/Development/webservice_DT_example/EditableDataTable/WebContent/index.html</file>
-            <file>file:/home/salim/Development/webservice_DT_example/EditableDataTable/WebContent/scripts/jquery.validate.js</file>
-            <file>file:/home/salim/Development/webservice_DT_example/EditableDataTable/WebContent/scripts/jquery.dataTables.editable.js</file>
-            <file>file:/home/salim/Development/webservice_DT_example/EditableDataTable/WebContent/media/dataTables/demo_table.css</file>
-        </group>
+        <group name="jsfandPrime"/>
     </open-files>
 </project-private>

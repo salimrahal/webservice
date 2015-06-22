@@ -5,5 +5,9 @@
         <group/>
         <group name="My Work"/>
         <group name="my work public"/>
+        <group name="jsfandPrime">
+            <file>file:/home/salim/Development/webservice/restful/HelloWorldApplication/src/java/helloworld/HelloworldJson.java</file>
+            <file>file:/home/salim/Development/webservice/restful/HelloWorldApplication/src/java/helloworld/ApplicationConfig.java</file>
+        </group>
     </open-files>
 </project-private>
