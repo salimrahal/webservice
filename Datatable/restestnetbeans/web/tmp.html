@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <!-- jQuery -->
+        <script type="text/javascript" charset="utf8"
+        src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script type="text/javascript" >
+            function buildHtmlSelect(idSelect, nameSelect, requiredSelect, arrayObjects, objectKeyName, objectValueName) {
+                var res = "<select id=\"" + idSelect + "\"";
+
+                if (nameSelect.length > 0) {
+                    res += " name=\"" + nameSelect + "\"";
+                }
+                if (requiredSelect.length > 0) {
+                    res += " required ";
+                }
+                res += "> "
+                //build options
+                for (var i = 0; i < arrayObjects.length; i++) {
+                    var obj = arrayObjects[i];
+                    console.log("obj=" + obj + "/obj[id]=" + obj["id"])
+                    res += "<option value=\"" + obj[ objectKeyName] + "\">";//access the key value
+                    res += obj[objectValueName];
+                    res += "</option>";
+                }
+                res += "</select>";
+                return res;
+            }
+
+        </script>
+        <div id="res">TODO write content</div>
+        <script type="text/javascript" >
+            var arrayObject = [{id: "1", name: "coco"}, {id: "2", name: "kaka"}];
+            var inputVar = buildHtmlSelect("1", "salad", "required", arrayObject, "id", "name");
+            console.log(inputVar);
+            $(document).ready(putSelect());
+
+            function putSelect() {
+                console.log("putSelect..");
+                var arrayObject = [{id: "1", name: "coco"}, {id: "2", name: "kaka"}];
+                var inputVar = buildHtmlSelect("1", "salad", "required", arrayObject, "id", "name");
+                console.log(inputVar);
+                $("#res").html(inputVar);
+            }
+
+        </script>
+    </body>
+</html>

@@ -128,6 +128,7 @@
     var sOldValue, sNewCellValue, sNewCellDislayValue;
     //Utility function used to apply editable plugin on table cells
     function _fnApplyEditable(aoNodes) {
+        console.log("_fnApplyEditable: apply editable function");
         var oDefaultEditableSettings = {
             event: 'dblclick',
             "callback": function (sValue, settings) {
@@ -255,7 +256,7 @@
                   values[rel] = this.value;
            }
         });
-
+        console.log("_fnOnRowAdded: values="+values);
         //Add values from the form into the table
         var rtn = oTable.fnAddData(values);
         var oTRAdded = oTable.fnGetNodes(rtn);
