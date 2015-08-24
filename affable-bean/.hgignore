@@ -1,0 +1,14 @@
+~$
+/build$
+/dist$
+/nbproject/private$
+/test/(coverage|results|work)$
+\.class$
+\.DS_Store$
+\.orig$
+\.rej$
+\.tmp\.$
+\.swp$
+^tags$
+/gensrc$
+^hs_err_pid[0-9]*\.log
